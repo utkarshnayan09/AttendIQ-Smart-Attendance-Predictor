@@ -59,18 +59,11 @@ AttendIQ uses mathematical formulas to calculate and predict attendance.
 
 ### 1. Current Attendance
 
-\[
-\text{Attendance (\%)} =
-\frac{\text{Classes Attended}}{\text{Total Classes}}\times100
-\]
+Attendance (%) = (Classes Attended / Total Classes) × 100
 
 ### 2. Predicted Attendance
 
-\[
-\text{Predicted (\%)} =
-\frac{A+P}{T+U}\times100
-\]
-
+Predicted (%) = ((A + P) / (T + U)) × 100
 Where:
 
 - A = Classes already attended
@@ -82,9 +75,7 @@ Where:
 
 When current attendance is below 75%:
 
-\[
-N = 3T - 4A
-\]
+Classes Required = (3 × T) - (4 × A)
 
 Where:
 
@@ -98,15 +89,11 @@ Suppose a student has attended 25 out of 40 classes.
 
 Current attendance:
 
-\[
-\frac{25}{40}\times100=62.5\%
-\]
+Classes Required = (3 × 40) - (4 × 25)
 
-Classes required to reach 75%:
+Classes Required = 120 - 100
 
-\[
-N=(3\times40)-(4\times25)=20
-\]
+Result: 20 additional consecutive classes.
 
 Therefore, the student needs to attend **20 consecutive classes** to reach 75%.
 
